@@ -24,7 +24,7 @@ export const Header =() => {
                  <ButtonsHeader textp="Mídia" />
                  |
                  <ButtonsHeader textp="Contato" />
-                 |
+                 <span className="span-contato">|</span>
 
             </div>
         </div>
