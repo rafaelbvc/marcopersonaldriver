@@ -1,0 +1,12 @@
+.button-css {
+    margin: 0 1.6vw;
+    font-size: calc(0.65rem + 0.7vmin);
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.button-css:hover {
+    color: #000;
+}
