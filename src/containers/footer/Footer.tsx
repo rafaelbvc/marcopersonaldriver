@@ -1,11 +1,16 @@
+import "./FooterCSS.css"
+
+
+
 export const Footer = ()=> {
 
     return (
     
-    <div>
+    <div className="footer-container">
 
+        footer
 
-
-    </div>)
+    </div>
+    )
 
 }
