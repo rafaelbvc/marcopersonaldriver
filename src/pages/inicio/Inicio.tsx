@@ -15,9 +15,20 @@ export const Inicio = () => {
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
             }}>
-                <div > 
+
+                <div className="inicio-conteudo-um"> 
         
+
+
+                </div>
+
+
+                <div className="inicio-conteudo-dois">
+                    
+
+
                 </div> 
+
             </div>
         </div>
     )

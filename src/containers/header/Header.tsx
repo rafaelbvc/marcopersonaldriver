@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { ButtonsHeader } from '../../components/buttons/ButtonsHeader';
 import './HeaderCSS.css';
 
@@ -16,17 +17,19 @@ export const Header =() => {
 
             </div>
 
-            <div>
-                <ButtonsHeader textp="Inicio" />
+            <nav>
+
+                <Link to="/">{<ButtonsHeader textp="Inicio" />}</Link>
                  |
-                 <ButtonsHeader textp="Painel" />
+                 <Link to="/painel"><ButtonsHeader textp="Painel" /></Link>
                  |
                  <ButtonsHeader textp="Mídia" />
                  |
                  <ButtonsHeader textp="Contato" />
-                 <span className="span-contato">|</span>
+                 <span className="span-contato">|
+                 </span>
 
-            </div>
+            </nav>
         </div>
 
 
