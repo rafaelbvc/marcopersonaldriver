@@ -62,9 +62,9 @@ export const Header = () => {
                 |
                 <Link to="/painel" onClick={() => setModalOpen(true)}><ButtonsHeader textp="Painel" /></Link>
                 |
-                <Link to="/modal"><ButtonsHeader textp="Mídia" /></Link>
+                <Link to="/midia"><ButtonsHeader textp="Mídia" /></Link>
                 |
-                <ButtonsHeader textp="Contato" />
+                <Link to="/contato"><ButtonsHeader textp="Contato" /></Link>
                 <span className="span-contato">|
                 </span>
 
