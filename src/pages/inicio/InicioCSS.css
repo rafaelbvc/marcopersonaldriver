@@ -8,3 +8,22 @@
     background-color: #fff;
 }
 
+.inicio-conteudo-um, .inicio-conteudo-dois {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 40%;
+    background-color: rgb(40, 44, 52, 0.7);
+    border-radius: 12px;
+    margin-left: 5%;
+}
+
+.inicio-conteudo-um {
+    margin-top: 18%;
+}
+
+.inicio-conteudo-dois {
+    margin-top: 4%;
+}

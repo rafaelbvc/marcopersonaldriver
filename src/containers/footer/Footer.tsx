@@ -8,9 +8,9 @@ export const Footer = ()=> {
     
     <div className="footer-container">
 
-        <span>Marco Personal Driver</span>
-        <span>MEI:6556243565</span>
-        <span>Sites Whatsapp(15)9982542-87</span>
+        <span className="span-footer">Marco Personal Driver</span>
+        <span className="span-footer">MEI:6556243565</span>
+        <span className="span-footer">Sites Whatsapp(15)9982542-87</span>
 
     </div>
     )
