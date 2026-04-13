@@ -1,4 +1,5 @@
 import PainelIMG from "../../assets/backgroundPages/inicio2jpg.jpg"
+import Formulario from "../../forms/Formulario"
 
 
 
@@ -21,7 +22,7 @@ export const Painel = () => {
 
 
 
-
+                <Formulario />
             </div>
 
 

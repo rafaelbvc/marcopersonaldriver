@@ -4,6 +4,7 @@ import { Footer } from './containers/footer/Footer';
 import { Header } from './containers/header/Header';
 import { Inicio } from './pages/inicio/Inicio';
 import { Painel } from './pages/painel/Ppainel';
+import { Error } from "./pages/error/Error"
 
 
 
@@ -18,6 +19,8 @@ function App() {
         <Route path="/" element={<Inicio />} />
         
         <Route path="/painel" element={<Painel />} />
+
+        <Route path="*" element={<Error />} />
 
       </Routes>
 
