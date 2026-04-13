@@ -6,8 +6,6 @@ export const Contato = () => {
 
     return (
 
-        <div>
-
             <div style={{
                 backgroundImage:`url(${ContatoIMG})`,
                 width: "100vw",
@@ -18,8 +16,6 @@ export const Contato = () => {
 
             }}>
             </div>
-
-        </div>
 
     )
 
