@@ -7,9 +7,6 @@ import Formulario from "../../forms/Formulario"
 export const Painel = () => {
     return (
 
-        <div className="painel-container">
-
-
             <div style={{
                          backgroundImage: `url(${PainelIMG})`, 
                          width: "100vw", 
@@ -20,14 +17,8 @@ export const Painel = () => {
                          }}>
 
 
-
-
                 <Formulario />
             </div>
-
-
-        </div>
-
 
     )
 }
