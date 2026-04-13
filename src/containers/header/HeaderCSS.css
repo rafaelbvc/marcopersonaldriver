@@ -14,3 +14,37 @@
 .span-contato {
     margin-right: 1.6vw;
 }
+
+.container-modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bemvindo-login {
+    color: rgb(40, 44, 52);
+    font-size: 18px;
+}
+
+.input-login, .input-senha {
+    width: 90%;
+    height: 20px;
+    padding: 2px 6px;
+    margin-top: 7%;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.input-senha, .botao-login {
+    margin-top: 3%;
+}
+
+.botao-login {
+    margin-left: 80%;
+}
+
+.input-error {
+    color: red;
+    margin-top: 8%;
+}
