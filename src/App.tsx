@@ -3,7 +3,7 @@ import './App.css';
 import { Footer } from './containers/footer/Footer';
 import { Header } from './containers/header/Header';
 import { Inicio } from './pages/inicio/Inicio';
-import { Painel } from './pages/painel/painel';
+import { Painel } from './pages/painel/Ppainel';
 
 
 
