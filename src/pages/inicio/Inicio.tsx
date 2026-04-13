@@ -18,7 +18,7 @@ export const Inicio = () => {
 
                 <div className="inicio-conteudo-um"> 
         
-
+                    
 
                 </div>
 
