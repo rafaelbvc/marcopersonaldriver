@@ -1,5 +1,5 @@
 import "./InicioCSS.css"
-import InicioImg from "../../assets/backgroundPages/inicio1jpg.jpg"
+import InicioImg from "../../assets/backgroundPages/inicioIMG.jpg"
 
 
 export const Inicio = () => {

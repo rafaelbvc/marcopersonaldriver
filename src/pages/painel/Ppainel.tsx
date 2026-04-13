@@ -1,4 +1,4 @@
-import PainelIMG from "../../assets/backgroundPages/inicio2jpg.jpg"
+import PainelIMG from "../../assets/backgroundPages/painelIMG.jpg"
 import Formulario from "../../forms/Formulario"
 
 
