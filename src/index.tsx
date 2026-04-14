@@ -5,19 +5,18 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 
-const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
-);
-root.render(
+// O "as HTMLElement" evita que o TS reclame que o elemento pode ser 'null'
+const rootElement = document.getElementById('root') as HTMLElement;
 
+const root = ReactDOM.createRoot(rootElement);
+
+root.render(
   <React.StrictMode>
-    
     <BrowserRouter>
       <App />
     </BrowserRouter>
-
   </React.StrictMode>
-
 );
+
 
 reportWebVitals();

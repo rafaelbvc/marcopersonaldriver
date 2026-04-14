@@ -1,14 +1,12 @@
+import { FC } from "react";
+import IButtonProps from "../../interfaces/IButtonProps";
 import  "./ButtonsHeaderCSS.css";
 
 
-    interface IButtonProps {
-        textp: string;
-        onClickp?: () => void;
-    }
 
 
 
-export const ButtonsHeader = ({textp, onClickp}: IButtonProps) => {
+export const ButtonsHeader: FC<IButtonProps> = ({textp, onClickp}) => {
 
     return (
 
