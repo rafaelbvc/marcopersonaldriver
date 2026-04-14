@@ -1,11 +1,15 @@
 .inicio-container {
     display: flex;
-    flex-direction: column; /* Mobile: um em cima do outro */
-    justify-content: center; /* Centraliza verticalmente no mobile */
+    flex-direction: column;
+    /* Mobile: um em cima do outro */
+    justify-content: center;
+    /* Centraliza verticalmente no mobile */
     align-items: center;
     width: 100%;
-    height: 100vh; /* Garante que ocupe a tela toda */
-    gap: 20px; /* Espaço entre os containers */
+    height: 100vh;
+    /* Garante que ocupe a tela toda */
+    gap: 20px;
+    /* Espaço entre os containers */
 }
 
 .inicio-conteudo-um,
@@ -22,9 +26,9 @@
 
 .span-conteudo-um {
     color: #fff;
-    font-size: calc(1.6rem + 1.8vw);
+    font-size: calc(1.2rem + 3vmin);
     font-weight: bolder;
-    margin-left: 2vw;
+    margin-left: 20px;
     -webkit-text-stroke: 0.02vw black;
 }
 
@@ -32,17 +36,66 @@
     align-items: flex-start;
 }
 
+.inicio-conteudo-dois {
+    align-items: flex-end;
+}
+
 /* Desktop */
 @media (min-width: 1000px) {
     .inicio-container {
-        flex-direction: row; /* Lado a lado */
-        justify-content: center; /* Centraliza horizontalmente */
+        flex-direction: row;
+        /* Lado a lado */
+        justify-content: center;
+        /* Centraliza horizontalmente */
     }
 
     .inicio-conteudo-um,
     .inicio-conteudo-dois {
         width: 40%;
         height: 50%;
-        margin: 0; /* Remove as margens do mobile se necessário */
+        /*  margin: 0; */
+        /* Remove as margens do mobile se necessário */
+    }
+}
+
+@media (min-width: 1400px) {
+
+    .inicio-conteudo-um,
+    .inicio-conteudo-dois {
+        width: 30%;
+        height: 50%;
+        /*  margin: 0; */
+        /* Remove as margens do mobile se necessário */
+    }
+}
+
+@media (min-width: 2000px) {
+
+    .inicio-conteudo-um,
+    .inicio-conteudo-dois {
+        width: 25%;
+        height: 50%;
+        /*  margin: 0; */
+        /* Remove as margens do mobile se necessário */
+    }
+}
+
+
+/* @media (min-width: 768px) or (orientation: landscape) and (max-height: 500px) */
+
+@media(min-width: 600px) and (orientation: landscape) {
+    .inicio-container {
+        flex-direction: row;
+        /* Lado a lado */
+        justify-content: center;
+        /* Centraliza horizontalmente */
+    }
+
+    .inicio-conteudo-um,
+    .inicio-conteudo-dois {
+        width: 40%;
+        height: 70%;
+        /*  margin: 0; */
+        /* Remove as margens do mobile se necessário */
     }
 }
