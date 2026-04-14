@@ -63,7 +63,7 @@ export default function ContractGenerator() {
 
   return (
     <div style={{ padding: '40px', maxWidth: '500px', margin: 'auto', fontFamily: 'sans-serif' }}>
-      <h2 style={{marginTop: "22vh"}}>Gerador de Contrato</h2>
+      <h2 style={{marginTop: "12vh"}}>Gerador de Contrato</h2>
       
       <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
         <input name="nome" placeholder="Nome Completo" onChange={handleChange} style={inputStyle} />
