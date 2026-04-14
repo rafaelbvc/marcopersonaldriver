@@ -1,8 +1,9 @@
 import "./MidiaCSS.css"
 import MidiaIMG from "../../assets/backgroundPages/midiaIMG.jpg"
+import { FC } from "react"
 
 
-export const Midia = () => {
+export const Midia: FC = () => {
 
     return (
 

@@ -1,5 +1,7 @@
+import { ReactNode } from "react";
+
 export default interface IModalPainel {
-    isOpen: Boolean,
-    children: any,
-    setModal: any
+    isOpen: boolean,
+    children: ReactNode,
+    setModal: () => void
 }

@@ -1,4 +1,4 @@
-import React, { useState, ChangeEvent, CSSProperties } from 'react';
+import React, { useState, ChangeEvent, CSSProperties, FC } from 'react';
 import { Document, Page, Text, View, StyleSheet, BlobProvider } from '@react-pdf/renderer';
 
 // 1. Interface para os dados do formulário
@@ -21,7 +21,7 @@ interface MyContractPDFProps {
   data: ContractData;
 }
 
-const MyContractPDF: React.FC<MyContractPDFProps> = ({ data }) => (
+const MyContractPDF: FC<MyContractPDFProps> = ({ data }) => (
   <Document>
     <Page size="A4" style={styles.page}>
       <Text style={styles.title}>CONTRATO DE PRESTAÇÃO DE SERVIÇOS</Text>

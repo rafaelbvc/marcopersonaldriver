@@ -1,7 +1,8 @@
+import { FC } from "react";
 import "./ErrorCSS.css"
 import { Link } from 'react-router-dom';
 
-export const Error = () => {
+export const Error: FC = () => {
     return (
         <div className="error-container">
             <h1>404 - Página não encontrada</h1>

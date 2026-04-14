@@ -1,8 +1,9 @@
+import { FC } from "react"
 import "./FooterCSS.css"
 
 
 
-export const Footer = ()=> {
+export const Footer: FC = ()=> {
 
     return (
     

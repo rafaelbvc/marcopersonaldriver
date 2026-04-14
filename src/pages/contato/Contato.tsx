@@ -1,8 +1,9 @@
 import "./ContatoCSS.css"
 import ContatoIMG from "../../assets/backgroundPages/contatoIMG.jpg"
+import { FC } from "react"
 
 
-export const Contato = () => {
+export const Contato: FC = () => {
 
     return (
 

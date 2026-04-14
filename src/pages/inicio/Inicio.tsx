@@ -1,10 +1,11 @@
 import "./InicioCSS.css"
 import InicioImg from "../../assets/backgroundPages/inicioIMG.jpg"
+import { FC } from "react";
 
 
 
 
-export const Inicio = () => {
+export const Inicio: FC = () => {
     return (
         <div className="inicio-container" style={{
             backgroundImage: `url(${InicioImg})`,

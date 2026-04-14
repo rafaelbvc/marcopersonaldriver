@@ -1,9 +1,10 @@
 import { Link } from "react-router"
 import "./ModalCSS.css"
 import IModalPainel from "../../interfaces/IModalPainel"
+import { FC } from "react"
 
 
-export const ModalPainel = ({ isOpen, children, setModal }: IModalPainel) => {
+export const ModalPainel: FC<IModalPainel> = ({ isOpen, children, setModal }) => {
 
     if (!isOpen) return null
 
