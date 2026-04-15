@@ -1,13 +1,13 @@
-import { Route, Routes } from 'react-router';
-import './App.css';
-import { Footer } from './containers/footer/Footer';
-import { Header } from './containers/header/Header';
-import { Inicio } from './pages/inicio/Inicio';
-import { Painel } from './pages/painel/Ppainel';
+import { Route, Routes } from "react-router";
+import "./App.css";
+import { Footer } from "./containers/footer/Footer";
+import { Header } from "./containers/header/Header";
+import { Inicio } from "./pages/inicio/Inicio";
+import { Painel } from "./pages/painel/Ppainel";
 import { Error } from "./pages/error/Error";
-import { Midia } from './pages/midia/Midia';
-import { Contato } from './pages/contato/Contato';
-import { FC } from 'react';
+import { Midia } from "./pages/midia/Midia";
+import { Contato } from "./pages/contato/Contato";
+import { FC } from "react";
 
 const App: FC = () => {
   return (

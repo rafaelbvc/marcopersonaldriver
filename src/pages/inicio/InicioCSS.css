@@ -58,6 +58,7 @@
         /* Lado a lado */
         justify-content: center;
         /* Centraliza horizontalmente */
+        gap: 80px;
     }
 
     .inicio-conteudo-um,
