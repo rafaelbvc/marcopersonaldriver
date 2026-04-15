@@ -5,10 +5,12 @@ import { useEffect, useState, ChangeEvent, FC } from 'react';
 import { ModalPainel } from '../../components/modal/MmodalPainel';
 
 export const Header: FC = () => {
+
+    //pega a url em que esta
     const location = useLocation();
 
-    // O TS infere boolean e string automaticamente aqui, mas você pode ser explícito:
     const [modalOpen, setModalOpen] = useState<boolean>(false);
+    
     const [login, setLogin] = useState<string>("");
     const [senha, setSenha] = useState<string>("");
     const [error, setError] = useState<string>("");
@@ -16,6 +18,7 @@ export const Header: FC = () => {
     const modalWords = "1";
     const modalNumbers = "1";
 
+    //comparação para login
     const handleLogin = (): void => {
         if (login === modalWords && senha === modalNumbers) {
             setModalOpen(false);
@@ -37,8 +40,7 @@ export const Header: FC = () => {
             setError("");
         }
     }, [modalOpen]);
-
-    // Tipagem dos eventos de Input
+    //evento dos inputs por convenção
     const handleLoginChange = (e: ChangeEvent<HTMLInputElement>) => setLogin(e.target.value);
     const handleSenhaChange = (e: ChangeEvent<HTMLInputElement>) => setSenha(e.target.value);
 
@@ -76,7 +78,7 @@ export const Header: FC = () => {
                     />
 
                     <input
-                        type="password" // Alterado para password por segurança
+                        type="password"
                         placeholder="senha"
                         value={senha}
                         onChange={handleSenhaChange}
