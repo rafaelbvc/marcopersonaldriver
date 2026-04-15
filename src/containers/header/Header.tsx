@@ -1,8 +1,8 @@
-import './HeaderCSS.css';
-import { Link, useLocation } from 'react-router-dom';
-import { ButtonsHeader } from '../../components/buttons/ButtonsHeader';
-import { useEffect, useState, ChangeEvent, FC } from 'react';
-import { ModalPainel } from '../../components/modal/MmodalPainel';
+import "./HeaderCSS.css";
+import { Link, useLocation } from "react-router-dom";
+import { ButtonsHeader } from "../../components/buttons/ButtonsHeader";
+import { useEffect, useState, ChangeEvent, FC } from "react";
+import { ModalPainel } from "../../components/modal/MmodalPainel";
 
 export const Header: FC = () => {
 
@@ -46,7 +46,7 @@ export const Header: FC = () => {
 
     return (
         <div className="header-container">
-            <div>logotipo</div>
+            <span>logotipo</span>
 
             <nav>
                 <Link to="/"><ButtonsHeader textp="Inicio" /></Link>

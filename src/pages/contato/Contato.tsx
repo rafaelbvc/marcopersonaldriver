@@ -16,6 +16,7 @@ export const Contato: FC = () => {
                 backgroundRepeat: "no-repeat"
 
             }}>
+
             </div>
 
     )

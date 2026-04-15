@@ -1,6 +1,6 @@
 import { FC } from "react";
 import "./ErrorCSS.css"
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 export const Error: FC = () => {
     return (
