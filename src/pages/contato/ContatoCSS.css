@@ -1,2 +1,11 @@
+.conteudo-contato, .conteudo-contato-um {
+    width: 80vw;
+    height: 20vh;
+    background-color: rgba(40, 44, 52, 0.4);
+    margin-top: 20vh;
+}
 
-
+.conteudo-contato-um {
+    margin-left: 20vw;
+    margin-top: 10vh;
+}

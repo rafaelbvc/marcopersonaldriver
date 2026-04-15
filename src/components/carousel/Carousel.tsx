@@ -20,7 +20,7 @@ const Carousel: FC<ICarousel> = ({ images }) => {
 
   return (
     <div className={styles.carousel}>
-      <h2 style={{textAlign: "center", color:"#fff", fontSize: "1rem"}}>bem vindo as minhas memórias</h2>
+      <h2 style={{textAlign: "center", color:"#fff", fontSize: "1rem"}}>algumas das viagens</h2>
       <button className={`${styles.btn} ${styles.prev}`} onClick={prevSlide}>
         &#10094;
       </button>
