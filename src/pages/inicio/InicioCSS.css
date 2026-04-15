@@ -29,7 +29,7 @@
     font-size: calc(1.2rem + 3vmin);
     font-weight: bolder;
     margin: 0 20px 0 20px;
-    -webkit-text-stroke: 0.02vw black;
+    -webkit-text-stroke: 0.04vw black;
 }
 
 .htres-conteudo-dois,
@@ -37,6 +37,10 @@
     text-align: right;
     margin: 0 20px 0 20px;
     color: #fff
+}
+
+.htres-conteudo-dois {
+    margin-bottom: 1%;
 }
 
 .p-conteudo-dois {
@@ -92,10 +96,20 @@
 }
 
 @media(min-height: 1000px) and (orientation: portrait) {
-        .p-conteudo-dois {
-            font-size: clamp(1.4rem, 1.7vw, 1.6rem)
-        }
+    .p-conteudo-dois {
+        font-size: clamp(1.4rem, 1.7vw, 1.6rem)
     }
+
+    .htres-conteudo-dois {
+        font-size: clamp(1.6rem, 1.9vw, 1.8rem)
+    }
+}
+
+@media(min-width: 1000px) and (orientation: landscape) {
+    .htres-conteudo-dois {
+        font-size: clamp(1.6rem, 1.9vw, 1.8rem)
+    }
+}
 
 @media (min-width: 1400px) {
 
@@ -121,4 +135,3 @@
 
 
 /* @media (min-width: 768px) or (orientation: landscape) and (max-height: 500px) */
-
