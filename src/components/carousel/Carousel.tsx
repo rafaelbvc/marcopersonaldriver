@@ -1,11 +1,9 @@
-import React, { useState } from 'react';
+import React, { FC, useState } from 'react';
 import styles from './Carousel.module.css';
+import ICarousel from '../../interfaces/ICarousel';
 
-interface CarouselProps {
-  images: string[];
-}
 
-const Carousel: React.FC<CarouselProps> = ({ images }) => {
+const Carousel: FC<ICarousel> = ({ images }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const nextSlide = () => {
