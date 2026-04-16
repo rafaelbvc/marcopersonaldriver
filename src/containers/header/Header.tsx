@@ -66,7 +66,7 @@ export const Header: FC = () => {
             <ModalPainel isOpen={modalOpen} setModal={() => setModalOpen(!modalOpen)}>
                 <div className="container-modal">
                     <p className="bemvindo-login">
-                        Bem vindo Marco, login:<br/> admin: 1, senha: 1, por hora
+                        Bem vindo Marco<br/> login: admin: 1, senha: 1, por hora
                     </p>
 
                     <input

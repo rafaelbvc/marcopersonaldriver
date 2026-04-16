@@ -15,6 +15,11 @@
     margin-right: 1.6vw;
 }
 
+.bemvindo-login {
+    color: rgb(40, 44, 52);
+    font-weight: bold;
+}
+
 .container-modal {
     display: flex;
     flex-direction: column;
