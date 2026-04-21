@@ -1,26 +1,33 @@
-import React, { FC, useState } from "react";
+import { FC, useState } from "react";
 import styles from "./Carousel.module.css";
 import ICarousel from "../../interfaces/ICarousel";
-
 
 const Carousel: FC<ICarousel> = ({ images }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const nextSlide = () => {
     setCurrentIndex((prevIndex) =>
-      prevIndex === images.length - 1 ? 0 : prevIndex + 1
+      prevIndex === images.length - 1 ? 0 : prevIndex + 1,
     );
   };
 
   const prevSlide = () => {
     setCurrentIndex((prevIndex) =>
-      prevIndex === 0 ? images.length - 1 : prevIndex - 1
+      prevIndex === 0 ? images.length - 1 : prevIndex - 1,
     );
   };
 
   return (
     <div className={styles.carousel}>
-      <h2 style={{textAlign: "center", color:"#fff", fontSize: "1rem"}}>algumas das viagens</h2>
+      <h2
+        style={{
+          textAlign: "center",
+          color: "#fff",
+          fontSize: "0.75rem",
+        }}
+      >
+        ALGUMAS DAS VIAGENS
+      </h2>
       <button className={`${styles.btn} ${styles.prev}`} onClick={prevSlide}>
         &#10094;
       </button>
