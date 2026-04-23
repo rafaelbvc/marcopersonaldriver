@@ -1,5 +1,5 @@
 import "./HeaderCSS.css";
-import { Link, useLocation } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 import { ButtonsHeader } from "../../components/buttons/ButtonsHeader";
 import {
   useEffect,
@@ -61,21 +61,21 @@ export const Header: FC = () => {
       <span>logotipo</span>
 
       <nav>
-        <Link to="/">
+        <NavLink to="/">
           <ButtonsHeader textp="Inicio" />
-        </Link>
+        </NavLink>
         |
-        <Link to="/painel" onClick={() => setModalOpen(true)}>
+        <NavLink to="/painel" onClick={() => setModalOpen(true)}>
           <ButtonsHeader textp="Painel" />
-        </Link>
+        </NavLink>
         |
-        <Link to="/midia">
+        <NavLink to="/midia">
           <ButtonsHeader textp="Mídia" />
-        </Link>
+        </NavLink>
         |
-        <Link to="/contato">
+        <NavLink to="/contato">
           <ButtonsHeader textp="Contato" />
-        </Link>
+        </NavLink>
         <span className="span-contato">|</span>
       </nav>
 
