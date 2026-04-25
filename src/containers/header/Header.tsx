@@ -7,6 +7,7 @@ import {
   ChangeEvent,
   FC,
   SubmitEventHandler,
+  useLayoutEffect,
 } from "react";
 import { ModalPainel } from "../../components/modal/MmodalPainel";
 
@@ -36,7 +37,7 @@ export const Header: FC = () => {
     }
   };
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     if (location.pathname === "/painel") {
       setModalOpen(true);
     }
